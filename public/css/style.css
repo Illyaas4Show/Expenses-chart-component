@@ -1,3 +1,75 @@
+@import url("https://fonts.google.com/share?selection.family=DM%20Sans:wght@400;700");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background-color: red;
+  background-color: hsl(27deg, 66%, 92%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+main {
+  margin-inline: 1rem;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+}
+
+p {
+  font-size: 16px;
+  color: hsl(28deg, 10%, 53%);
+}
+
+.balance {
+  background-color: hsl(10deg, 79%, 65%);
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  border-radius: 0.7rem;
+}
+.balance div p {
+  color: hsl(27deg, 66%, 92%);
+  margin-bottom: 0.5rem;
+}
+.balance div h1 {
+  color: hsl(33deg, 100%, 98%);
+}
+
+.content {
+  background-color: hsl(33deg, 100%, 98%);
+  padding: 1.5rem;
+  border-radius: 0.7rem;
+}
+.content .bottom {
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px solid hsl(27deg, 66%, 92%);
+  padding-top: 2rem;
+}
+.content .bottom div {
+  display: flex;
+  flex-direction: column;
+}
+.content .bottom .total p {
+  margin-bottom: 0.5rem;
+}
+.content .bottom .total h2 {
+  font-size: 1.9rem;
+}
+.content .bottom .last-month {
+  display: flex;
+  justify-content: end;
+}
+.content .bottom .last-month h3 {
+  text-align: right;
+  line-height: 2rem;
+  font-size: 0.9rem;
 }

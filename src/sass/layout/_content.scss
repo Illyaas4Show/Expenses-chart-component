@@ -1,0 +1,41 @@
+@use '../abstracts/colours' as c;
+@use '../abstracts/variables' as v;
+
+.content {
+    background-color: c.$very-pale-orange;
+    padding: v.$padding;
+    border-radius: v.$border-radius;
+
+    .bottom {
+        display: flex;
+        justify-content: space-between;
+        border-top: 2px solid c.$cream;
+        padding-top: 2rem;
+
+        div {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .total p {
+            margin-bottom: .5rem;
+        }
+
+        .total h2 {
+            font-size: 1.9rem;
+        }
+
+        .last-month {
+            display: flex;
+            justify-content: end;
+
+            h3 {
+                text-align: right;
+                line-height: 2rem;
+                font-size: .9rem;
+            }
+        }
+        
+        
+    }
+}

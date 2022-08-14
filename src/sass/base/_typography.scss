@@ -1,0 +1,12 @@
+@use '../abstracts/colours' as c;
+@import url('https://fonts.google.com/share?selection.family=DM%20Sans:wght@400;700');
+$font-size: 16px;
+
+body {
+    font-family: 'DM Sans', sans-serif;
+}
+
+p {
+    font-size: $font-size;
+    color: c.$medium-brown;
+}

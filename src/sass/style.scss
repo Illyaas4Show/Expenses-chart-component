@@ -1,5 +1,5 @@
-$red: red;
+@use 'base/reset';
+@use 'base/typography';
 
-body {
-    background-color: $red;
-}
+@use 'layout/header';
+@use 'layout/content';
