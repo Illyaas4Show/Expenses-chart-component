@@ -68,4 +68,4 @@ I will continue to learn about SCSS and how it can be used to make styling easie
 - Github - [@Illyaas4Show](https://github.com/Illyaas4Show)
 
 Thank YOU for viewing!
-Have a nice day!2  
+Have a nice day!
